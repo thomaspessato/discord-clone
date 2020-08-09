@@ -1,3 +1,8 @@
+## Discord Clone using ReactJS
+
+The main reason for this repository is for practicing front-end skills using ReactJS.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
