@@ -2,23 +2,21 @@ import React from 'react';
 
 import { Grid } from './styles';
 import ServerList from '../ServerList';
+import ServerName from '../ServerName';
+import ChannelInfo from '../ChannelInfo';
+import ChannelList from '../ChannelList';
+import UserInfo from '../UserInfo';
 
 const Layout: React.FC = () => {
     return (
         <Grid>
             <ServerList></ServerList>
+            <ServerName></ServerName>
+            <ChannelInfo></ChannelInfo>
+            <ChannelList></ChannelList>
+            <UserInfo></UserInfo>
         </Grid>
     );
 };
 
-
 export default Layout;
-
-// JS
-// export default function() {
-
-//     return (
-//         <div>Oi mundo!</div>
-//     )
-// }
-
